@@ -1,0 +1,37 @@
+#container-nav {
+    background-color: #FFFFFF;
+}
+
+#container-header {
+    background-color: #DBD9DB;
+    height: 350px;
+    width: 100%;
+}
+
+#container-content {
+    padding: 24px 0px;
+}
+
+#container-footer {
+    padding: 32px 0px;
+    background-color: #DBD9DB;
+    color: #fff;
+    font-weight: 100;
+}
+
+.box {
+    padding: 14px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#masthead {
+    color: #fff;
+}
+
+#portfolio article {
+    float: left;
+    width: 33%;
+}
