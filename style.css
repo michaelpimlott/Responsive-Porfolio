@@ -60,9 +60,10 @@ html{
 body{
   font-family: 'Roboto Condensed', 'Helvetica Neue', 'helvetica', sans-serif;
 }
-p{
+p, #resume li {
   font-size: 1.063em;
   line-height: 1.223em;
+  margin: .612em 0;
 }
 
 /*change all headings to the lightest weight*/
@@ -160,12 +161,14 @@ section footer{
     float: left;
     width: 33%;
   }
-}
 
-@media screen and (min-width: 45em){
   body{
     font-size: 107.692%;
   }
+}
+
+@media screen and (min-width: 45em){
+
 
 }
 /*------------------------------------------------*/
