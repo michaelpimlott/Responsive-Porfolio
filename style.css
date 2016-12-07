@@ -61,8 +61,87 @@ body{
   font-family: 'Roboto Condensed', 'Helvetica Neue', 'helvetica', sans-serif;
 }
 p{
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.063em;
+  line-height: 1.223em;
+}
+
+/*change all headings to the lightest weight*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+h1{
+  font-size: 3.189em;
+  line-height: 1.223em;
+}
+h2{
+  font-size: 2.126em;
+  line-height: 1.223em;
+}
+
+h1, h2 {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
+}
+
+h3{
+  font-size: 1.382em;
+  line-height: 1.176em;
+}
+
+h4{
+  font-size: 1em;
+  line-height: 1.56;
+  text-transform: uppercase;
+}
+
+#portfolio h4 {
+  line-height: 1.82;
+}
+
+h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .85em;
+  line-height: 1.53;
+  font-weight: 500;
+}
+
+h6{
+  color: #aaa;
+  font-weight: 200;
+}
+
+.box ul{
+  list-style: none;
+  padding: 0;
+}
+
+.box h4{
+  border-top: 4px double #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: .975em;
+  text-align: center;
+}
+
+figure,
+.box{
+  background: #fff;
+  -moz-box-shadow:0 0 .325em .13em rgba(0, 0, 0, .1);
+  -webkit-box-shadow:0 0 .325em .13em rgba(0, 0, 0, .1);
+  box-shadow:0 0 .325em .13em rgba(0, 0, 0, .1);
+  padding: .975em;
+}
+
+nav h3{
+  text-transform: capitalize;
+}
+
+#content article{
+  padding-top: .65em;
+  padding-bottom: 1.3em;
+}
+
+section footer{
+  clear: both;
 }
 
 /*---------------------------------------------*/
@@ -83,4 +162,10 @@ p{
   }
 }
 
+@media screen and (min-width: 45em){
+  body{
+    font-size: 107.692%;
+  }
+
+}
 /*------------------------------------------------*/
