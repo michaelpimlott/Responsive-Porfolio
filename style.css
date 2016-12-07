@@ -1,6 +1,6 @@
-body{
-  padding: 0;
-  margin: 0;
+body {
+    padding: 0;
+    margin: 0;
 }
 
 #container-nav {
@@ -34,149 +34,296 @@ img {
 
 #masthead {
     color: #fff;
+    width:80%;
 }
 
+
 /*------------------------------------*/
+
+
 /*clearfix hack*/
-.group:after{
-  content: " "; /* 1 */
-  display: table; /* 2 */
-  clear: both;
+
+.group:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+    clear: both;
 }
 
 .group {
-  *zoom: 1; /* 3 */
-}
-html{
-  font-size: 100%;
-  line-height: 1;
-  /* disable auto scaling on smartphones*/
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  /*--------------------------------------*/
+    *zoom: 1;
+    /* 3 */
 }
 
-body{
-  font-family: 'Roboto Condensed', 'Helvetica Neue', 'helvetica', sans-serif;
+html {
+    font-size: 100%;
+    line-height: 1;
+    /* disable auto scaling on smartphones*/
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    /*--------------------------------------*/
 }
 
-.wrapper{
-  padding: 0 .65em;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing: border-box;
+body {
+    font-family: 'Roboto Condensed', 'Helvetica Neue', 'helvetica', sans-serif;
+}
+
+.wrapper {
+    padding: 0 .65em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 p, #resume li {
-  font-size: 1.063em;
-  line-height: 1.223em;
-  margin: .612em 0;
+    font-size: 1.063em;
+    line-height: 1.223em;
+    margin: .612em 0;
 }
+
 
 /*change all headings to the lightest weight*/
+
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 100;
+    font-weight: 100;
 }
 
-h1{
-  font-size: 3.189em;
-  line-height: 1.223em;
+h1 {
+    font-size: 3.189em;
+    line-height: 1.223em;
 }
-h2{
-  font-size: 2.126em;
-  line-height: 1.223em;
+
+h2 {
+    font-size: 2.126em;
+    line-height: 1.223em;
 }
 
 h1, h2 {
-  text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
 }
 
-h3{
-  font-size: 1.382em;
-  line-height: 1.176em;
+h3 {
+    font-size: 1.382em;
+    line-height: 1.176em;
 }
 
-h4{
-  font-size: 1em;
-  line-height: 1.56;
-  text-transform: uppercase;
+h4 {
+    font-size: 1em;
+    line-height: 1.56;
+    text-transform: uppercase;
 }
 
 #portfolio h4 {
-  line-height: 1.82;
+    line-height: 1.82;
 }
 
 h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .85em;
-  line-height: 1.53;
-  font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .85em;
+    line-height: 1.53;
+    font-weight: 500;
 }
 
-h6{
-  color: #aaa;
-  font-weight: 200;
+h6 {
+    color: #aaa;
+    font-weight: 200;
 }
 
-.box ul{
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box h4 {
+    border-top: 4px double #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: .975em;
+    text-align: center;
+}
+
+figure, .box {
+    background: #fff;
+    -moz-box-shadow: 0 0 .325em .13em rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 .325em .13em rgba(0, 0, 0, .1);
+    box-shadow: 0 0 .325em .13em rgba(0, 0, 0, .1);
+    padding: .975em;
+}
+
+nav h3 {
+    text-transform: capitalize;
+}
+
+#content article {
+    padding-top: .65em;
+    padding-bottom: 1.3em;
+}
+
+section footer {
+    clear: both;
+}
+
+#nav,
+#masthead,
+#content,
+#colophon {
+  margin: 0 3.3%;
+}
+
+/*form-----------------------------------------------*/
+
+form {
+  padding: 0 0 1.3em;
+}
+
+form ul {
   list-style: none;
-  padding: 0;
+  padding: 1.3em 0 0;
 }
 
-.box h4{
-  border-top: 4px double #eee;
-  border-bottom: 1px solid #eee;
-  margin-bottom: .975em;
-  text-align: center;
+form li{
+  padding: 0 0 .65em;
 }
 
-figure,
-.box{
-  background: #fff;
-  -moz-box-shadow:0 0 .325em .13em rgba(0, 0, 0, .1);
-  -webkit-box-shadow:0 0 .325em .13em rgba(0, 0, 0, .1);
-  box-shadow:0 0 .325em .13em rgba(0, 0, 0, .1);
+legend{
+  font-size: 1.382em;
+  line-height: 1.223;
+}
+
+label{
+  display: block;
+  font-size: 1em;
+  line-height: 1.56;
+  padding: 0 0 .325em;
+}
+
+legend, label {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  font-weight: 500;
+  padding: .65em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+/*1)remove vertical scrollbar in early IE 2)improve readability in all browsers*/
+
+textarea{
+  padding-bottom: 10%;
+  overflow: auto; /* 1 */
+  vertical-align: top; /* 2 */
+}
+
+.send{
+  display: inline-block;
+  max-width: 30em;
+  font-size: 1em;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  background: #0074b0;
+  margin: .65em .26em;
   padding: .975em;
+  border: 0;
+  border-radius: 1.3em;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .65);
 }
 
-nav h3{
-  text-transform: capitalize;
+.send :hover {
+  background: #6f6f6f;
 }
 
-#content article{
-  padding-top: .65em;
-  padding-bottom: 1.3em;
+.send :active,
+.send :focus {
+  background: #555;
 }
+/*---------------------------------------------------*/
 
-section footer{
-  clear: both;
+/*IE 7 and below box-sizing polyfill*/
+
+/* replace absolute path with domain name when launched */
+
+/*.ie .wrapper {
+    *behavior: url("http://absolute-path.com/js/boxsizing.htc");
+}*/
+
+
+/*clearfix*/
+
+.group {
+    *zoom: 1;
 }
 
 /*---------------------------------------------*/
-.ie body{
-  width: 640px;
-  margin:0 auto;
-}
 
+.ie body {
+    width: 640px;
+    margin: 0 auto;
+}
 
 /*media query for screen widths larger than 720px
 -----------------------------------------------*/
 
-@media screen and (min-width: 720px){
-  #portfolio article,
-  #resume article {
-    float: left;
-    width: 33.333%;
-  }
+@media screen and (min-width: 45em) {
+    #portfolio article, #resume article {
+        float: left;
+        width: 33.333%;
+    }
+    body {
+        font-size: 107.692%;
+    }
 
-  body{
-    font-size: 107.692%;
-  }
+    #masthead{
+      max-width: 40em;
+    }
+
+    #nav,
+    #masthead,
+    #content,
+    #colophon {
+      margin: 0 5.5%;
+    }
+    /*form-------------------------------------*/
+
+    .name, .email {
+      float: left;
+      width: 50%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .name{
+      padding-right: .65em;
+    }
+
+    .email {
+      padding-left: .65em;
+    }
+
+    .send {
+      width: 48.6%;
+
+    }
+    /*-----------------------------------------*/
 }
 
-@media screen and (min-width: 45em){
 
 
+@media (min-width: 60em) {
+  .name, .email {}
 }
-/*------------------------------------------------*/

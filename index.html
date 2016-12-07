@@ -122,12 +122,31 @@
     </div>
 
     <div id="container-footer">
-        <footer id="colphon" class="wrapper">
+          <form>
+            <fieldset class="wrapper">
+              <legend>Contact</legend>
+                <ul class="group">
+                  <li class="name">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name"/>
+                  </li>
+                  <li class="email">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email"/>
+                  </li>
+                  <li class="message">
+                    <label for="message">Leave A Note</label>
+                    <textarea id="message" name="message"></textarea>
+                  </li>
+                </ul>
+              <input class="send" type="submit" name="submit" value="send" />
+            </fieldset>
+          </form>
+          <footer id="colphon" class="wrapper">
 
-            <p>©2016 all rights reserved. Fill out a form here to get in touch.</p>
+          <p>©2016 all rights reserved. Fill out a form here to get in touch.</p>
 
-        </footer>
-    </div>
-</body>
-
+          </footer>
+      </div>
+   </body>
 </html>
