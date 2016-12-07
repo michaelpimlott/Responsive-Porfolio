@@ -323,7 +323,21 @@ textarea{
 }
 
 
-
+/*for screens wider than 960px*/
 @media (min-width: 60em) {
-  .name, .email {}
+  .name, .email {
+    padding-right: 1.3em;
+    padding-left: 0;
+    clear:both;
+  }
+
+  .message textarea {
+    width:50%;
+  }
+
+  .send {
+    width: 25%;
+    /*margin-left: 50%;*/
+  }
+
 }
