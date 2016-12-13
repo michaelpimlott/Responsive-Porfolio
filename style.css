@@ -7,16 +7,6 @@ body {
     background-color: #FFFFFF;
 }
 
-#container-header {
-    background: #5A6988 url("http://i.imgur.com/pdSELei.jpg") no-repeat top center;
-    /*height: 350px;
-    width: 100%;*/
-    padding: 10% 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-}
-
 #container-content {
     padding: 24px 0px;
 }
@@ -212,6 +202,18 @@ section footer {
     bottom: .26em;
   }
 
+  /*headshot-----------------------------------------*/
+
+  #michael {
+    width: 25%;
+    height:0;
+    padding-bottom: 25%;
+  }
+
+  #michael img {
+    width: 100%;
+  }
+
 
 /*form-----------------------------------------------*/
 
@@ -317,6 +319,19 @@ textarea{
     width: 640px;
     margin: 0 auto;
 }
+/*media query for screen widths smaller than 720 px*/
+
+
+@media screen and (max-width:45em) {
+  #container-header {
+      background: #5A6988 url("http://i.imgur.com/QMmgeBn.jpg") no-repeat top center;
+      padding: 10% 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+  }
+
+}
 
 /*media query for screen widths larger than 720px
 -----------------------------------------------*/
@@ -326,6 +341,7 @@ textarea{
         float: left;
         width: 33.333%;
     }
+
     body {
         font-size: 107.692%;
     }
@@ -339,6 +355,16 @@ textarea{
     #content,
     #colophon {
       margin: 0 5.5%;
+    }
+
+    #container-header {
+        background: #5A6988 url("http://i.imgur.com/pdSELei.jpg") no-repeat top center;
+        /*height: 350px;
+        width: 100%;*/
+        padding: 10% 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
     }
 
     /*form-------------------------------------*/

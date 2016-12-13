@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="style.css" />
     <!--[if lt IE 9]><html class="ie"><![endif]-->
     <!--[if gte IE 9]><!--><html><!--<![endif]-->
-
+    <script src="js/picturefill.js"></script>
+    <script src="js/matchmedia.js"></script>
 </head>
 
 <body lang="en">
@@ -29,8 +30,19 @@
         </section>
     </div>
     <div id="container-header">
-
         <header id="masthead" class="wrapper">
+          <figure id="michael">
+            <div data-picture data-alt="Michael Pimlott">
+              <div data-src="images/michael-s.png"></div>
+              <div data-src="images/michael-m.png" data-media="(min-width: 45em)"></div>
+              <div data-src="images/michael-l.png" data-media="(min-width: 60em)"></div>
+              <noscript>
+                <img src="images/michael-s.png" alt="Michael Pimlott">
+              </noscript>
+            </div>
+          </figure>
+
+
             <h1>Hi, I'm Michael</h1>
 
             <h2>A Boston-based designer/developer hybrid with a passion for user experience and the web</h2>
@@ -53,7 +65,7 @@
                         <figure>
                             <img src="images/beecher-small.jpg">
                         </figure>
-                      </a>   
+                      </a>
                 </article>
                 <article class="group wrapper">
                     <h4>Cellular Data Homepage</h4>
