@@ -8,9 +8,13 @@ body {
 }
 
 #container-header {
-    background-color: #5A6988;
-    height: 350px;
-    width: 100%;
+    background: #5A6988 url("http://i.imgur.com/pdSELei.jpg") no-repeat top center;
+    /*height: 350px;
+    width: 100%;*/
+    padding: 10% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
 
 #container-content {
