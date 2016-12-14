@@ -36,9 +36,10 @@ img {
 
 }
 
-#nav h3{
+#nav h3 {
   float: left;
   text-transform: capitalize;
+
 }
 
 #nav ul {
@@ -411,6 +412,37 @@ textarea{
         width: 33.333%;
     }
 
+    #nav {
+      padding: 0;
+    }
+
+    #nav h3 {
+      margin: .12em 1.3em 0 0;
+    }
+
+    #nav label {
+      display: none;
+    }
+
+    #nav nav {
+      height: auto;
+      overflow: visible;
+    }
+
+    #nav ul {
+      border: 0;
+      margin: 0;
+    }
+
+    #nav li {
+      display: inline;
+      border: 0;
+    }
+
+    #nav a {
+      display: inline-block;
+    }
+
     body {
         font-size: 107.692%;
     }
@@ -430,7 +462,7 @@ textarea{
         background: #5A6988 url("http://i.imgur.com/pdSELei.jpg") no-repeat top center;
         /*height: 350px;
         width: 100%;*/
-        padding: 10% 0;
+        padding: 5% 0;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
