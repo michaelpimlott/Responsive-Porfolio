@@ -17,13 +17,17 @@
     <div id="container-nav">
         <section id="nav" class="wrapper">
             <h3>Michael Pimlott</h3>
+            <!--checkbox hack-->
+            <input type="checkbox" id="toggle" />
+            <label for="toggle" onclick>Menu</label>
+            <!--  / -->
             <nav>
 
                 <ul>
-                    <li>Portfolio</li>
-                    <li>Resume</li>
-                    <li>LinkedIn Profile</li>
-                    <li>Contact</li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/michaelpimlott">LinkedIn Profile</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
 
             </nav>
@@ -140,7 +144,7 @@
     </div>
 
     <div id="container-footer">
-          <form>
+          <form id="contact">
             <fieldset class="wrapper">
               <legend>Contact</legend>
                 <ul class="group">
@@ -162,7 +166,7 @@
           </form>
           <footer id="colphon" class="wrapper">
 
-          <p>©2016 all rights reserved. Fill out a form here to get in touch.</p>
+          <p>©2016 all rights reserved. </p>
 
           </footer>
       </div>

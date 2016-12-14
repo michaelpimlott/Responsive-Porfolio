@@ -30,9 +30,78 @@ img {
     color: #fff;
     width:80%;
 }
+/*nav menu---------------------------*/
+#nav {
+  padding: .65em 0;
 
+}
 
+#nav h3{
+  float: left;
+  text-transform: capitalize;
+}
+
+#nav ul {
+  list-style: none;
+  padding: 0;
+  border-bottom: 1px solid #eee;
+  margin: .65em 0 .39em;
+}
+
+#nav li {
+  border-top: 1px solid #eee;
+}
+
+#nav a {
+  display: block;
+  font-size: 1.063em;
+  color: #333;
+  text-decoration: none;
+  padding: .975em 1.3em;
+}
+
+#nav a:hover{
+  background: #f8f8f8;
+}
+
+/*hide nav to toggle on/off later-----*/
+#nav nav{
+  height: 0;
+  overflow: hidden;
+}
 /*------------------------------------*/
+
+/*advanced checkbox hack--------------*/
+
+body {
+  -webkit-animation: bugfix infinite 1s;
+}
+
+@-webkit-keyframes bugfix {
+  from {padding: 0;}
+  to {padding: 0;}
+}
+
+#nav input[type=checkbox] {
+  position: absolute;
+  top: -999em;
+  left: -999em;
+}
+
+#nav label {
+  display: block;
+  background: url("images/icon-menu.png") no-repeat right center;
+  text-indent: -999em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#nav input[type=checkbox]:checked ~ nav {
+  height: auto;
+  overflow: hidden;
+}
 
 
 /*clearfix hack*/
