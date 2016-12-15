@@ -402,6 +402,10 @@ textarea{
       background-size: cover;
   }
 
+  #portfolio figure {
+    max-width: 25em;
+  }
+
 }
 
 /*media query for screen widths larger than 720px
