@@ -28,83 +28,88 @@ img {
 
 #masthead {
     color: #fff;
-    width:80%;
+    width: 80%;
 }
-/*nav menu---------------------------*/
-#nav {
-  padding: .65em 0;
 
+/*nav menu---------------------------*/
+
+#nav {
+    padding: .65em 0;
 }
 
 #nav h3 {
-  float: left;
-  text-transform: capitalize;
-  margin: .24em 0;
-
+    float: left;
+    text-transform: capitalize;
+    margin: .24em 0;
 }
 
 #nav ul {
-  list-style: none;
-  padding: 0;
-  border-bottom: 1px solid #eee;
-  margin: .65em 0 .39em;
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    margin: .65em 0 .39em;
 }
 
 #nav li {
-  border-top: 1px solid #eee;
+    border-top: 1px solid #eee;
 }
 
 #nav a {
-  display: block;
-  font-size: 1.063em;
-  color: #333;
-  text-decoration: none;
-  padding: .975em 1.3em;
+    display: block;
+    font-size: 1.063em;
+    color: #333;
+    text-decoration: none;
+    padding: .975em 1.3em;
 }
 
-#nav a:hover{
-  background: #f8f8f8;
+#nav a:hover {
+    background: #f8f8f8;
 }
 
 /*hide nav to toggle on/off later-----*/
-#nav nav{
-  height: 0;
-  overflow: hidden;
+
+#nav nav {
+    height: 0;
+    overflow: hidden;
 }
+
 /*------------------------------------*/
 
 /*advanced checkbox hack--------------*/
 
 body {
-  -webkit-animation: bugfix infinite 1s;
+    -webkit-animation: bugfix infinite 1s;
 }
 
 @-webkit-keyframes bugfix {
-  from {padding: 0;}
-  to {padding: 0;}
+    from {
+        padding: 0;
+    }
+    to {
+        padding: 0;
+    }
 }
 
 #nav input[type=checkbox] {
-  position: absolute;
-  top: -999em;
-  left: -999em;
+    position: absolute;
+    top: -999em;
+    left: -999em;
 }
 
 #nav label {
-  display: block;
-  background: url("images/icon-menu.png") no-repeat right center;
-  text-indent: -999em;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    display: block;
+    background: url("images/icon-menu.png") no-repeat right center;
+    text-indent: -999em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-#nav input[type=checkbox]:checked ~ nav {
-  height: auto;
-  overflow: hidden;
+#nav input[type=checkbox]:checked~nav {
+    height: auto;
+    overflow: hidden;
 }
-
 
 /*clearfix hack*/
 
@@ -148,7 +153,6 @@ p, #resume li {
     margin: .612em 0;
 }
 
-
 /*change all headings to the lightest weight*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -184,8 +188,7 @@ h4 {
     line-height: 1.82;
 }
 
-h5,
-h6 {
+h5, h6 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: .85em;
     line-height: 1.53;
@@ -209,8 +212,7 @@ h6 {
     text-align: center;
 }
 
-#portfolio figure,
-.box {
+#portfolio figure, .box {
     background: #fff;
     -moz-box-shadow: 0 0 .325em .13em rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 0 .325em .13em rgba(0, 0, 0, .1);
@@ -231,152 +233,144 @@ section footer {
     clear: both;
 }
 
-#nav,
-#masthead,
-#content,
-#colophon {
-  margin: 0 3.3%;
+#nav, #masthead, #content, #colophon {
+    margin: 0 3.3%;
 }
 
 /*create img foundation-----------------------*/
 
-    figure {
-      position:relative;
-    }
+figure {
+    position: relative;
+}
 
-    figure img,
-    figure object,
-    figure embed,
-    figure video {
-      display: block;
-      max-width: 100%;
-    }
+figure img, figure object, figure embed, figure video {
+    display: block;
+    max-width: 100%;
+}
 
 /*ie scaling fix-------------------------------*/
 
-    img {
-      border: 0;
-      -ms-interpolation-mode: bicubic;
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
 
-    }
+/*--------------------------------------------*/
 
-  /*--------------------------------------------*/
-
-  #portfolio figure:hover,
-  .box:hover {
+#portfolio figure:hover, .box:hover {
     -moz-box-shadow: 0 0 .65em .325em rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 0 .65em .325em rgba(0, 0, 0, .1);
     box-shadow: 0 0 .65em .325em rgba(0, 0, 0, .1);
-  }
+}
 
-  #portfolio figure:hover {
+#portfolio figure:hover {
     bottom: .26em;
-  }
+}
 
-  /*headshot-----------------------------------------*/
+/*headshot-----------------------------------------*/
 
-  #michael {
+#michael {
     width: 25%;
-    height:0;
+    height: 0;
     padding-bottom: 25%;
-  }
+}
 
-  #michael img {
+#michael img {
     width: 100%;
-  }
-
+}
 
 /*form-----------------------------------------------*/
 
 form {
-  padding: 0 0 1.3em;
+    padding: 0 0 1.3em;
 }
 
 form ul {
-  list-style: none;
-  padding: 1.3em 0 0;
+    list-style: none;
+    padding: 1.3em 0 0;
 }
 
-form li{
-  padding: 0 0 .65em;
+form li {
+    padding: 0 0 .65em;
 }
 
-legend{
-  font-size: 1.382em;
-  line-height: 1.223;
+legend {
+    font-size: 1.382em;
+    line-height: 1.223;
 }
 
-label{
-  display: block;
-  font-size: 1em;
-  line-height: 1.56;
-  padding: 0 0 .325em;
-}
-
-legend,
 label {
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #fff;
+    display: block;
+    font-size: 1em;
+    line-height: 1.56;
+    padding: 0 0 .325em;
 }
 
-input,
-textarea {
-  display: block;
-  width: 100%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.3;
-  font-weight: 500;
-  padding: .65em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+legend, label {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
 
+input, textarea {
+    display: block;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.3;
+    font-weight: 500;
+    padding: .65em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*1)remove vertical scrollbar in early IE 2)improve readability in all browsers*/
 
-textarea{
-  padding-bottom: 10%;
-  overflow: auto; /* 1 */
-  vertical-align: top; /* 2 */
+textarea {
+    padding-bottom: 10%;
+    overflow: auto;
+    /* 1 */
+    vertical-align: top;
+    /* 2 */
 }
 
-.send{
-  display: inline-block;
-  max-width: 30em;
-  font-size: 1em;
-  line-height: 1;
-  font-weight: 500;
-  color: #fff;
-  text-decoration: none;
-  background: #0074b0;
-  margin: .65em .26em;
-  padding: .975em;
-  border: 0;
-  border-radius: 1.3em;
-  text-shadow: 0 -1px 1px rgba(0, 0, 0, .65);
+.send {
+    display: inline-block;
+    max-width: 30em;
+    font-size: 1em;
+    line-height: 1;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    background: #0074b0;
+    margin: .65em .26em;
+    padding: .975em;
+    border: 0;
+    border-radius: 1.3em;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, .65);
 }
 
 .send :hover {
-  background: #6f6f6f;
+    background: #6f6f6f;
 }
 
-.send :active,
-.send :focus {
-  background: #555;
+.send :active, .send :focus {
+    background: #555;
 }
+
 /*---------------------------------------------------*/
+
 
 /*IE 7 and below box-sizing polyfill*/
 
+
 /* replace absolute path with domain name when launched */
+
 
 /*.ie .wrapper {
     *behavior: url("http://absolute-path.com/js/boxsizing.htc");
 }*/
-
 
 /*clearfix*/
 
@@ -390,22 +384,20 @@ textarea{
     width: 640px;
     margin: 0 auto;
 }
+
 /*media query for screen widths smaller than 720 px*/
 
-
 @media screen and (max-width:45em) {
-  #container-header {
-      background: #5A6988 url("http://i.imgur.com/QMmgeBn.jpg") no-repeat top center;
-      padding: 10% 0;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-  }
-
-  #portfolio figure {
-    max-width: 25em;
-  }
-
+    #container-header {
+        background: #5A6988 url("http://i.imgur.com/QMmgeBn.jpg") no-repeat top center;
+        padding: 10% 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    #portfolio figure {
+        max-width: 25em;
+    }
 }
 
 /*media query for screen widths larger than 720px
@@ -416,53 +408,39 @@ textarea{
         float: left;
         width: 33.333%;
     }
-
     #nav {
-      padding: 0;
+        padding: 0;
     }
-
     #nav h3 {
-      margin: .5em 1.3em 0 0;
+        margin: .5em 1.3em 0 0;
     }
-
     #nav label {
-      display: none;
+        display: none;
     }
-
     #nav nav {
-      height: auto;
-      overflow: visible;
+        height: auto;
+        overflow: visible;
     }
-
     #nav ul {
-      border: 0;
-      margin: 0;
+        border: 0;
+        margin: 0;
     }
-
     #nav li {
-      display: inline;
-      border: 0;
+        display: inline;
+        border: 0;
     }
-
     #nav a {
-      display: inline-block;
+        display: inline-block;
     }
-
     body {
         font-size: 107.692%;
     }
-
-    #masthead{
-      max-width: 40em;
+    #masthead {
+        max-width: 40em;
     }
-
-    #nav,
-    #masthead,
-    #content,
-    #colophon {
-      margin: 0 5.5%;
+    #nav, #masthead, #content, #colophon {
+        margin: 0 5.5%;
     }
-
     #container-header {
         background: #5A6988 url("http://i.imgur.com/pdSELei.jpg") no-repeat top center;
         /*height: 350px;
@@ -474,80 +452,69 @@ textarea{
     }
 
     /*form-------------------------------------*/
-
-    .name,
+    .name, .email {
+        float: left;
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .name {
+        padding-right: .65em;
+    }
     .email {
-      float: left;
-      width: 50%;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
+        padding-left: .65em;
     }
-
-    .name{
-      padding-right: .65em;
-    }
-
-    .email {
-      padding-left: .65em;
-    }
-
     .send {
-      width: 48.6%;
-
+        width: 48.6%;
     }
     /*-----------------------------------------*/
 }
 
-
 /*for screens wider than 960px*/
+
 @media (min-width: 60em) {
-  .name, .email {
-    padding-right: 1.3em;
-    padding-left: 0;
-    clear:both;
-  }
-
-  .message textarea {
-    width:50%;
-  }
-
-  .send {
-    width: 25%;
-    /*margin-left: 50%;*/
-  }
-
-  .ie .message textarea {
-    *width: 49.9%
-  }
-
-  .ie .send {
-    margin-left: 46.7%;
-  }
-
+    .name, .email {
+        padding-right: 1.3em;
+        padding-left: 0;
+        clear: both;
+    }
+    .message textarea {
+        width: 50%;
+    }
+    .send {
+        width: 25%;
+        /*margin-left: 50%;*/
+    }
+    .ie .message textarea {
+        *width: 49.9%
+    }
+    .ie .send {
+        margin-left: 46.7%;
+    }
 }
 
 /*old ie fixes---------------------------------------------*/
 
 .ie #portfolio figure {
-  width: 100%;
-  box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .ie #portfolio figure {
-  *width: auto;
+    *width: auto;
 }
 
-#nav input[type=checkbox].checked ~ nav {
-  height: auto;
-  overflow: visible;
+#nav input[type=checkbox].checked~nav {
+    height: auto;
+    overflow: visible;
 }
 
 .ie nav nav {
-  *height: auto;
-  *overflow: visible;
+    *height: auto;
+    *overflow: visible;
 }
 
 .ie #nav label {
-  *background: none;
+    *background: none;
 }
