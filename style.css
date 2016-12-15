@@ -517,4 +517,37 @@ textarea{
     /*margin-left: 50%;*/
   }
 
+  .ie .message textarea {
+    *width: 49.9%
+  }
+
+  .ie .send {
+    margin-left: 46.7%;
+  }
+
+}
+
+/*old ie fixes---------------------------------------------*/
+
+.ie #portfolio figure {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ie #portfolio figure {
+  *width: auto;
+}
+
+#nav input[type=checkbox].checked ~ nav {
+  height: auto;
+  overflow: visible;
+}
+
+.ie nav nav {
+  *height: auto;
+  *overflow: visible;
+}
+
+.ie #nav label {
+  *background: none;
 }
